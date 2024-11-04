@@ -8,3 +8,8 @@ Contains DOTS for:
 - Grub/EFI
 - Waybar
 - JetBrainsMono Font
+
+TO DO: 
+- Add Starship
+- Add Dependencies 
+- Use Git Sync App
