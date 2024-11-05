@@ -8,7 +8,7 @@ Contains DOTS for:
 - Grub/EFI
 - Waybar
 - JetBrainsMono Font
-- Add Starship
+- Starship
   
 TO DO: 
 - Add Dependencies 
