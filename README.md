@@ -8,13 +8,11 @@ Contains DOTS for:
 - Grub/EFI
 - Waybar
 - JetBrainsMono Font
-
-TO DO: 
 - Add Starship
+  
+TO DO: 
 - Add Dependencies 
 - Use Git Sync App
-- Update Dot Files On Arch, Added Compiler In NVim
-- Update Compile In NVim To Run More Code (Go, C, C++, Etc)
 - Update Links With Sources For All Apps/Documentation Etc
 
 Links:
