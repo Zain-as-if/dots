@@ -1,0 +1,147 @@
+palette = "catppuccin_mocha"
+
+format = """
+[ ](#4062C2)\
+$os\
+$username\
+[](bg:#8BB8F5 fg:#4062C2)\
+$directory\
+[](fg:#8BB8F5 bg:#E5B3E3)\
+$git_branch\
+$git_status\
+[](fg:#E5B3E3 bg:#3D2F59)\
+$c\
+$gradle\
+$rust\
+$python\
+$java\
+$lua\
+$ruby\
+$singularity\ 
+[](fg:#3D2F59 bg:#831C90)\
+$time\
+[ ](fg:#831C90)\
+$character
+"""
+
+# Disable the blank line at the start of the prompt
+# add_newline = false
+
+[os]
+disabled = false
+style = "bg:#4062C2"
+
+[os.symbols]
+Arch = "󰣇 "
+ 
+# You can also replace your username with a neat symbol like   or disable this
+# and use the os module below
+[username]
+show_always = true
+style_user = "bg:#4062C2"
+style_root = "bg:#4062C2"
+format = '[$user ]($style)'
+disabled = false
+
+[directory]
+style = "bg:#8BB8F5 fg:#014007"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+"Videos" = "󰨜 "
+"Uni" = " "
+
+[singularity]
+style = "bg:#3D2F59"
+format = '[📦 \[$env\]]($style)'
+
+[c]
+symbol = " "
+style = "bg:#3D2F59"
+format = '[ $symbol ($version) ]($style)'
+
+[git_branch]
+symbol = ""
+style = "bg:#E5B3E3 fg:#014007"
+format = '[ $symbol $branch ]($style)'
+
+[git_status]
+style = "bg:#E5B3E3 fg:#014007"
+format = '[$all_status$ahead_behind ]($style)'
+
+[gradle]
+style = "bg:#3D2F59"
+format = '[ $symbol ($version) ]($style)'
+
+[rust]
+symbol = " "
+style = "bg:#3D2F59"
+format = '[ $symbol ($version) ]($style)'
+
+[python]
+symbol = " "
+style = "bg:#3D2F59"
+format = '[ $symbol ($version) ]($style)'
+
+[java]
+symbol = " "
+style = "bg:#3D2F59"
+format = '[ $symbol ($version) ]($style)'
+
+[lua]
+symbol = " "
+style = "bg:#3D2F59"
+format = '[ $symbol ($version) ]($style)'
+
+[ruby]
+symbol = " "
+style = "bg:#3D2F59"
+format = '[ $symbol ($version) ]($style)'
+
+[time]
+disabled = false
+time_format = "%R" # Hour:Minute Format
+utc_time_offset = '0'
+style = "bg:#831C90"
+format = '[   $time ]($style)'
+
+[character]
+success_symbol = '[](#FECEC2)'
+error_symbol = '[](#FECEC2)'
+
+[palettes.catppuccin_mocha]
+rosewater = "#f5e0dc"
+flamingo = "#f2cdcd"
+pink = "#f5c2e7"
+mauve = "#cba6f7"
+red = "#f38ba8"
+maroon = "#eba0ac"
+peach = "#fab387"
+yellow = "#f9e2af"
+green = "#a6e3a1"
+teal = "#94e2d5"
+sky = "#89dceb"
+sapphire = "#74c7ec"
+blue = "#89b4fa"
+lavender = "#b4befe"
+text = "#cdd6f4"
+subtext1 = "#bac2de"
+subtext0 = "#a6adc8"
+overlay2 = "#9399b2"
+overlay1 = "#7f849c"
+overlay0 = "#6c7086"
+surface2 = "#585b70"
+surface1 = "#45475a"
+surface0 = "#313244"
+base = "#1e1e2e"
+mantle = "#181825"
+crust = "#11111b"
+
+# Possible modules to add
+# [Shell] 
