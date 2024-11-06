@@ -11,6 +11,7 @@ Contains DOTS for:
 - Starship
   
 TO DO: 
+- Sync Dots
 - Add Dependencies 
 - Use Git Sync App
 - Update Links With Sources For All Apps/Documentation Etc
