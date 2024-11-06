@@ -14,6 +14,8 @@ TO DO:
 - Add Dependencies 
 - Use Git Sync App
 - Update Links With Sources For All Apps/Documentation Etc
+- Add AutoPairs To Arch Nvim
 
 Links:
-- Code Compiler https://github.com/CRAG666/code_runner.nvim 
+- Code Compiler https://github.com/CRAG666/code_runner.nvim
+- AutoPairs https://github.com/windwp/nvim-autopairs
