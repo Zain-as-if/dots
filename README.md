@@ -19,3 +19,4 @@ TO DO:
 Links:
 - Code Compiler https://github.com/CRAG666/code_runner.nvim
 - AutoPairs https://github.com/windwp/nvim-autopairs
+- Harpoon https://github.com/ThePrimeagen/harpoon
