@@ -16,6 +16,11 @@ TO DO:
 - Use Git Sync App
 - Update Links With Sources For All Apps/Documentation Etc
 - Add AutoPairs To Arch Nvim
+- Swww + WAYPAPER + Animated Wallpaper
+- Custom FastFetch
+- Learn TMUX
+- Learn NEOVIM
+- Customize Waybar
 
 Links:
 - Code Compiler https://github.com/CRAG666/code_runner.nvim
