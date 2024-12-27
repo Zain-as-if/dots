@@ -17,11 +17,23 @@ alias grep='grep --color=auto'
 alias icat='kitten icat'
 
 # Alias for configs
-alias hconfig='vim ~/.config/hypr/hyprland.conf'
-alias hpconfig='vim ~/.config/hypr/hyprpaper.conf'
-alias wconfig='sudo vim /etc/xdg/waybar/config.jsonc'
-alias wsconfig='sudo vim /etc/xdg/waybar/style.css'
-alias sconfig='vim ~/.config/starship.toml'
+alias hconfig='nvim ~/.config/hypr/hyprland.conf'
+alias hpconfig='nvim ~/.config/hypr/hyprpaper.conf'
+alias wconfig='cd ~/.config/waybar'
+alias sconfig='nvim ~/.config/starship.toml'
+alias nconfig='cd ~/.config/nvim'
+
+alias singularity='singularity shell ~/Uni/opsys/xv6-tools-container/xv6-tools-container.sif'
+
+alias slideshow1='feh --recursive --randomize --scale-down -D 1 --geometry 2560x1440'
+alias slideshow2='feh --recursive --randomize --scale-down -D 2 --geometry 2560x1440'
+alias slideshow3='feh --recursive --randomize --scale-down -D 3 --geometry 2560x1440'
+alias slideshow5='feh --recursive --randomize --scale-down -D 5 --geometry 2560x1440'
+
+alias autozslideshow1='feh --recursive --randomize -Z -D 1 --geometry 2560x1440'
+alias autozslideshow2='feh --recursive --randomize -Z -D 2 --geometry 2560x1440'
+alias autozslideshow3='feh --recursive --randomize -Z -D 3 --geometry 2560x1440'
+alias autozslideshow5='feh --recursive --randomize -Z -D 5 --geometry 2560x1440'
 
 PS1='[\u@\h \W]\$ '
 eval "$(starship init bash)"
@@ -45,3 +57,10 @@ export FLASK_APP=run.py
 export FLASK_DEBUG=1	
 
 eval "$(zoxide init --cmd cd bash)"
+
+# Created by `pipx` on 2024-11-27 01:12:32
+export PATH="$PATH:/home/zain/.local/bin"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
