@@ -11,16 +11,16 @@ Contains DOTS for:
 - Starship
   
 TO DO: 
-- Sync Dots
-- Add Dependencies 
 - Use Git Sync App
 - Update Links With Sources For All Apps/Documentation Etc
-- Add AutoPairs To Arch Nvim
 - Swww + WAYPAPER + Animated Wallpaper
-- Custom FastFetch
-- Learn TMUX
-- Learn NEOVIM
-- Customize Waybar
+
+LAPTOP TO DO: 
+- Neovim Plugins
+- Hyprpanel Customisation
+- Mouse Size
+- SDDM & Grub Customisation
+- Windows Os-Prober
 
 Links:
 - Code Compiler https://github.com/CRAG666/code_runner.nvim
