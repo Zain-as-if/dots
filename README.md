@@ -11,6 +11,7 @@ Contains DOTS for:
 - Starship
   
 TO DO: 
+- Sync New NVim Dots
 - Use Git Sync App
 - Update Links With Sources For All Apps/Documentation Etc
 - Swww + WAYPAPER + Animated Wallpaper
