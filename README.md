@@ -17,11 +17,11 @@ TO DO:
 - Swww + WAYPAPER + Animated Wallpaper
 
 LAPTOP TO DO: 
-- Neovim Plugins
+- Lazyvim
 - Hyprpanel Customisation
-- Mouse Size
 - SDDM & Grub Customisation
-- Windows Os-Prober
+- Wofi/Rofi Customisation
+- Starship
 
 Links:
 - Code Compiler https://github.com/CRAG666/code_runner.nvim
