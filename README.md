@@ -17,11 +17,9 @@ TO DO:
 - Swww + WAYPAPER + Animated Wallpaper
 
 LAPTOP TO DO: 
-- Lazyvim
 - Hyprpanel Customisation
-- SDDM & Grub Customisation
+- Grub Customisation
 - Wofi/Rofi Customisation
-- Starship
 
 Links:
 - Code Compiler https://github.com/CRAG666/code_runner.nvim
